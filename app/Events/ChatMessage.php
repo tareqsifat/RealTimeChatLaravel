@@ -25,6 +25,8 @@ class ChatMessage implements ShouldBroadcast
     {
         $this->message = $message;
         $this->receiver = $receiver;
+
+        
     }
 
     /**
